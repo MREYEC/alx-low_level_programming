@@ -10,7 +10,7 @@ int main(void)
 	char h;
 
 	for (i = 0 ; i < 10 ; i++)
-		putchar(i);
+		putchar(i + '0');
 	for (h = 'a' ; h <= 'f' ; h++)
 		putchar(h);
 	putchar('\n');
